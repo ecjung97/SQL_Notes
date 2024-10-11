@@ -15,7 +15,7 @@
 </ul>
 <br/>
 <table>
-    <caption>표 3-1 모델링의 특징</caption>
+    <caption><strong class="green-color">표 3-1</strong> <p class="background">모델링의 특징</p></caption>
     <tr>
         <th>특징</th>
         <th>설명</th>
@@ -49,7 +49,7 @@
 <h1>3.1.2 모델링의 3가지 관점</h1>
 <p>IT 시스템의 대상이 되는 업무(비즈니스)를 분석하여 정보(IT) 시스템으로 국성하는 과정에서 업무의 내용과 IT 시스템의 모습을 적절한 표기법으로 표현하는 것을 모델링이라고 함.</p>
 <table>
-    <caption>표 3-2 모델링의 3가지 관점</caption>
+    <caption><strong class="green-color">표 3-2</strong> 모델링의 3가지 관점</caption>
     <tr>
         <th>관점</th>
         <th>설명</th>
@@ -93,7 +93,7 @@
 <h1>3.1.4 데이터 모델이 제공하는 기능 및 데이터 모델의 중요성</h1>
 <p>데이터 모델링 과정을 통해 데이터 모데를 도출하며, 데이터 모델은 다양한 기능을 제공함.</p>
 <table>
-    <caption>표 3-3 데이터 모델의 기능</caption>
+    <caption><strong class="green-color">표 3-3</strong> 데이터 모델의 기능</caption>
     <tr>
         <th>항목</th>
         <th>설명</th>
@@ -125,7 +125,7 @@
 </table>
 <br/>
 <table>
-    <caption>표 3-4 데이터 모델이 중요한 이유</caption>
+    <caption><strong class="green-color">표 3-4</strong> 데이터 모델이 중요한 이유</caption>
     <tr>
         <th>이유</th>
         <th>설명</th>
@@ -179,7 +179,7 @@
     생성된 데이터베이스에 접속하여 SQL문으로 DBMS에 명령을 내릴 수 있음.
 </p>
 <table>
-    <caption>데이터 모델링의 3단계</caption>
+    <caption><strong class="green-color">표 3-5</strong> 데이터 모델링의 3단계</caption>
     <tr>
         <th>단계명</th>
         <th>설명</th>
@@ -218,6 +218,50 @@
                 </li>
             </ul>
         </th>
+    </tr>
+</table>
+<br/>
+<p>
+    개념적 데이터 모델링 단계에서는 포괄적인 수준의 모델링을 진행함. <br/><br/>논리적 데이터 모델링 단계는 IT 시스템에서 구현하고자 하는 비즈니스를
+    만족하기 위해 기본 키, 속성, 관계, 외래키 등을 정확하게 표현하는 단계임. <br/><br/> 물리적 데이터 모델링 단계는 논리 데이터 모델을 기반으로,
+    실제 물리 DB 구축을 위해 성능, 저장공간 등의 물리적인 특성을 고려하녀 설계하는 단계임. 이 단계에서 완성된 물리 데이터 모델로 물리 DB를 구축함.
+</p>
+<br/>
+<h1>3.1.6 프로젝트 생명 주기에서 데이터 모델링</h1>
+<p>
+    대부분의 IT 시스템 구축은 프로젝트 생명 주기를 갖게 됨. 프로젝트 생명 주기<small>Life Cycle</small>의 각 단계는 정보전략계획 ▶︎ 분석 ▶︎
+    설계 ▶︎ 개발 ▶︎ 테스트 ▶︎ 전환/이행 단계에 따라 진행됨. 데이터 모델링의 3단계 중 개념적 데잍터 모델링 단계는 프로젝트 생명 주기의 정보전략계획
+    및 분석 단계에 포함되며, 논리적 데이터 모델링 단계는 분석 단계에 포함되고 물리적 데이터 모델링 단계는 설계 단계에 포함됨.
+</p>
+<table>
+    <caption><strong class="green-color">표 3-6</strong> 프로젝트 생명 주기와 데이터 모딜렝 단계</caption>
+    <tr>
+        <th>프로젝트 생명 주기</th>
+        <th>데이터 모델링 단계</th>
+    </tr>
+    <tr>
+        <th class="left-align">정보전략계획</th>
+        <th class="left-align">개념적 데이터 모델링</th>
+    </tr>
+    <tr>
+        <th class="left-align">분석</th>
+        <th class="left-align">개념적 데이터 모델링, 논리적 데이터 모델링</th>
+    </tr>
+    <tr>
+        <th class="left-align">설계</th>
+        <th class="left-align">물리적 데이터 모델링</th>
+    </tr>
+    <tr>
+        <th class="left-align">개발</th>
+        <th>-</th>
+    </tr>
+    <tr>
+        <th class="left-align">테스트</th>
+        <th>-</th>
+    </tr>
+    <tr>
+        <th class="left-align">전환/이행</th>
+        <th>-</th>
     </tr>
 </table>
 </body>
