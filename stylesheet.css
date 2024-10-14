@@ -39,8 +39,15 @@ small{
     color: darkgreen;
 }
 .background{
-    background-color: lightgreen;
+    background-color: #438737;
 }
 .botgap{
     margin-bottom: 10px;
+}
+.highlight{
+    background: lightpink;
+}
+#circlenum{
+    list-style-type: none;
+    padding: 10px;
 }
